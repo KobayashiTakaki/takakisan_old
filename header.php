@@ -16,7 +16,7 @@
     </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?20181006-1">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?20181006-2">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php wp_head(); ?>
@@ -36,7 +36,7 @@
       <header>
         <nav id="top-nav" class="navbar navbar-expand-lg navbar-light mb-1 px-lg-0">
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars fa-sm"></i>
+            <i class="fas fa-bars fa-lg"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <?php wp_nav_menu(array(
