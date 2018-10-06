@@ -50,7 +50,7 @@
         </nav>
       </header>
     </div>
-    <div id="fixed-nav" class="row pt-2">
+    <div id="fixed-nav" class="row">
         <nav class="navbar navbar-expand-lg navbar-light px-lg-0">
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#fixedNavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars fa-lg"></i>
