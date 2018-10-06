@@ -49,7 +49,7 @@ $(function(){
     fixedNavShowFlg = false;
   }
 
-  var throttledtoggleFixedNav = _.throttle(toggleFixedNav, 200);
+  var throttledtoggleFixedNav = _.throttle(toggleFixedNav, 100);
 
   $(window).on('scroll', function(){
     throttledtoggleFixedNav();
