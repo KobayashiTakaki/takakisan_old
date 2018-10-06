@@ -53,7 +53,7 @@
     <div id="fixed-nav" class="row">
         <nav class="navbar navbar-expand-lg navbar-light py-0 px-lg-0">
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#fixedNavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars fa-sm"></i>
+            <i class="fas fa-bars fa-lg"></i>
           </button>
           <div class="collapse navbar-collapse" id="fixedNavbarSupportedContent">
             <?php wp_nav_menu(array(

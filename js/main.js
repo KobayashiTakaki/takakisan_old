@@ -36,7 +36,7 @@ $(function(){
     fixedNav.stop().animate({
       opacity:1,
       top: 0
-    },200);
+    },100);
     fixedNavShowFlg = true;
   }
 
@@ -45,7 +45,7 @@ $(function(){
     fixedNav.stop().animate({
       opacity:0,
       top: -fixedNav.height()
-    },200);
+    },100);
     fixedNavShowFlg = false;
   }
 
