@@ -28,7 +28,8 @@ $(function(){
     } else {
       if(fixedNavShowFlg){
         console.log('under');
-        fixedNav.stop().animate({opacity:0,
+        fixedNav.stop().animate({
+          opacity:0,
           top: -fixedNav.height()
         },200);
         fixedNavShowFlg = false;

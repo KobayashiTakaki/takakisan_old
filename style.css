@@ -58,13 +58,14 @@ img.logo {
 }
 
 #fixed-nav {
-  background-color: #51C7D2;
+  background-color: rgba(81,199,210,0.7);
   position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
   opacity: 0;
   font-size: 12px;
+  font-weight: 800;
 }
 
 
