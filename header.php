@@ -27,7 +27,7 @@
   </head>
 
   <body <?php body_class('container'); ?>>
-    <div id="logo" class="row justify-content-center">
+    <div id="logo" class="row justify-content-center mt-4">
       <div class="col-lg-8 mb-1">
         <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php header_image(); ?>"></a>
       </div>
