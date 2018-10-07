@@ -34,7 +34,7 @@
     </div>
     <div id="site-header" class="row">
       <header>
-        <nav id="top-nav" class="navbar navbar-expand-lg navbar-light mb-1 px-lg-0">
+        <nav id="top-nav" class="navbar navbar-expand-lg navbar-light mb-1 px-0">
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars fa-lg"></i>
           </button>
@@ -51,7 +51,7 @@
       </header>
     </div>
     <div id="fixed-nav" class="row">
-        <nav class="navbar navbar-expand-lg navbar-light px-lg-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-0">
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#fixedNavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars fa-lg"></i>
           </button>

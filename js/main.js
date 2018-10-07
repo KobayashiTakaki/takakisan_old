@@ -1,5 +1,5 @@
 $(function(){
-  //var _window = $(window);
+////メニューに.activeをつける
   if($('#top-nav ul li[class *= "active"]').length === 0) {
     console.log('empty');
     $('#top-nav ul li:first-child').addClass('active');
@@ -7,6 +7,7 @@ $(function(){
     console.log($('#top-nav ul li[class *= "active"]')[0].textContent);
   }
 
+////固定メニューをスクロールに応じて出したりしまったりする
   var headerBottom;
   var fixedNav = $('#fixed-nav');
   var lastTop = 0;
@@ -49,11 +50,13 @@ $(function(){
     fixedNavShowFlg = false;
   }
 
-  var throttledtoggleFixedNav = _.throttle(toggleFixedNav, 100);
+  var throttledtoggleFixedNav = _.throttle(toggleFixedNav, 300);
 
   $(window).on('scroll', function(){
     throttledtoggleFixedNav();
   });
   $(window).trigger('scroll');
 
+////code-prittifyを適用する
+  PR.prettyPrint();
 });

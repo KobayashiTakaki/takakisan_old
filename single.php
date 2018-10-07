@@ -10,5 +10,5 @@
       </div>
       <?php get_sidebar(); ?>
     </div>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?Sons-Of-Obsidian"></script>
 <?php get_footer(); ?>
