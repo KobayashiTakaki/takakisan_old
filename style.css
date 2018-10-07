@@ -170,25 +170,26 @@ img.logo {
 } */
 
 
-
+article h1,h2,h3,h4,h5,h6 {
+  color: #6c757d;
+  font-weight: 600;
+  margin-top: 1.2em;
+}
 
 article h1 {
-  color: #6c757d;
-  font-weight: 500;
-  text-align: center;
 }
 
 article h2 {
-  display: block;
-  color: #6c757d;
-  padding: 5px;
-  border-left: 10px solid #FFB77F;
+  padding-left: 3px;
+  border-left: 5px solid #FFB77F;
   box-sizing: border-box;
 }
 
-article h3,h4,h5,h6 {
-  color: #6c757d;
+article h3 {
+  border-bottom: 1px dotted #6c757d;
 }
+
+
 
 article a {
   color: #FFB77F;
