@@ -58,5 +58,8 @@ $(function(){
   $(window).trigger('scroll');
 
 ////code-prittifyを適用する
-  PR.prettyPrint();
+  if($('.prettyprint').length !== 0){
+    PR.prettyPrint();    
+  }
+
 });
