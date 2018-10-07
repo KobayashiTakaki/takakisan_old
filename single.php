@@ -10,5 +10,6 @@
       </div>
       <?php get_sidebar(); ?>
     </div>
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=Sons-Of-Obsidian"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
+
 <?php get_footer(); ?>
