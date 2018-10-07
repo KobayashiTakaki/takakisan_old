@@ -57,9 +57,9 @@ $(function(){
   });
   $(window).trigger('scroll');
 
-////code-prittifyを適用する
+////code-prettifyを適用する
   if($('.prettyprint').length !== 0){
-    PR.prettyPrint();    
+    PR.prettyPrint();
   }
 
 });
