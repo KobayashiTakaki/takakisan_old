@@ -242,7 +242,7 @@ pre {
   padding: 1em;
 }
 
-.pagenation {
+.pagination {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -252,24 +252,9 @@ pre {
 
 }
 
-.pagenation li {
-  font-size: 16px;
-  width: 23px;
-  height: 23px;
-  text-align: center;
-  line-height: 23px;
+.pagination li {
+  font-size: 15px;
 }
-
-.pagenation a {
-  height: 100%;
-}
-
-.pagenation .active {
-  background-color: #6c757d;
-  color: #FFF;
-  border-radius: 3px;
-}
-
 
 .sidebar {
   max-width: 360px;
