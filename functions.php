@@ -17,6 +17,8 @@ function my_nav_menu_class($classes, $item) {
   }
   return $classes;
 }
+
+//ナビゲーションのa要素にクラスを追加する
 add_filter('walker_nav_menu_start_el', 'add_class_nav_menu_link', 10, 4);
 function add_class_nav_menu_link($item_output, $item){
   return preg_replace('/(<a.*?)/', '$1' . " class='nav-link'", $item_output);

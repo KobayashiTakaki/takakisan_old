@@ -43,7 +43,7 @@
                 'theme_location' => 'top-nav',
                 'container' => '',
                 'menu_class' => '',
-                'items_wrap' => '<ul class="navbar-nav">%3$s</ul>'
+                'items_wrap' => '<ul class="navbar-nav pl-lg-0 pl-3">%3$s</ul>'
               ));
             ?>
           </div>
@@ -60,7 +60,7 @@
                 'theme_location' => 'top-nav',
                 'container' => '',
                 'menu_class' => '',
-                'items_wrap' => '<ul class="navbar-nav">%3$s</ul>'
+                'items_wrap' => '<ul class="navbar-nav pl-3">%3$s</ul>'
               ));
             ?>
           </div>
