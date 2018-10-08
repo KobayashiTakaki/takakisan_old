@@ -73,22 +73,22 @@ function pagination($pages = '', $range = 2) {
    }
 
    if(1 != $pages) {
-  	 echo "<div class=\"pagination\">\n";
-  	 echo "<ul>\n";
+  	 echo "<div class=\"pagination my-3\">\n";
+  	 echo "<ul class=\"nav justify-content-center nav-pills\">\n";
   	 //Prev：現在のページ値が１より大きい場合は表示
      if($paged > 1) {
-       echo "<li class=\"prev badge badge-secondary\"><a href='".get_pagenum_link($paged - 1)."'><</a></li>\n";
+       echo "<li class=\"prev nav-item\"><a class=\"nav-link\" href='".get_pagenum_link($paged - 1)."'><</a></li>\n";
      }
 
      for ($i=1; $i <= $pages; $i++) {
        if (1 != $pages &&
             (!($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )) {
-          echo ($paged == $i)? "<li class=\"badge badge-primary active\">".$i."</li>\n":"<li class=\"badge badge-secondary\"><a href='".get_pagenum_link($i)."'>".$i."</a></li>\n";
+          echo ($paged == $i)? "<li class=\"nav-item\"><span class=\"nav-link btn btn-outline-secondary disabled\">".$i."</span></li>\n":"<li class=\"nav-item\"><a class=\"nav-link\" href='".get_pagenum_link($i)."'>".$i."</a></li>\n";
        }
      }
 	//Next：総ページ数より現在のページ値が小さい場合は表示
 	if ($paged < $pages) {
-    echo "<li class=\"badge badge-secondary next\"><a href=\"".get_pagenum_link($paged + 1)."\">></a></li>\n";
+    echo "<li class=\"next nav-item\"><a class=\"nav-link\" href=\"".get_pagenum_link($paged + 1)."\">></a></li>\n";
   }
 	echo "</ul>\n";
 	echo "</div>\n";
