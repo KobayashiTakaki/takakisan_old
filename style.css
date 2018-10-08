@@ -233,6 +233,10 @@ article .separate {
   border-bottom: 1px solid rgba(170, 170, 170, 0.5);
 }
 
+article .lined {
+  background: linear-gradient(transparent 80%, #f9d4b7 80%);
+}
+
 pre {
   overflow: auto;
   max-width: 100%;
