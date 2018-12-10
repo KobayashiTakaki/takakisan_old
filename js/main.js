@@ -1,10 +1,10 @@
 $(function(){
 ////メニューに.activeをつける
   if($('#top-nav ul li[class *= "active"]').length === 0) {
-    console.log('empty');
     $('#top-nav ul li:first-child').addClass('active');
-  } else {
-    console.log($('#top-nav ul li[class *= "active"]')[0].textContent);
+  }
+  if($('#fixed-nav ul li[class *= "active"]').length === 0) {
+    $('#fixed-nav ul li:first-child').addClass('active');
   }
 
 ////固定メニューをスクロールに応じて出したりしまったりする
