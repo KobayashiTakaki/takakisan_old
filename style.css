@@ -31,7 +31,8 @@ p {
   margin-left: 0;
 }
 
-header ul, aside ul {
+header ul, aside ul,
+category ul {
   padding: 0;
   list-style: none;
 }
