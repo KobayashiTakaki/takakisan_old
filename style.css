@@ -32,7 +32,7 @@ p {
 }
 
 header ul, aside ul,
-category ul {
+ul.category {
   padding: 0;
   list-style: none;
 }
